@@ -43,7 +43,7 @@ body {
   width: 100%;
   min-height: 100vh;
   height: -webkit-fill-available;
-  position: relative;
+  //   position: relative;
 
   .header-bar {
     width: 100%;
@@ -62,7 +62,7 @@ body {
     box-shadow: var(--bs-b);
     text-align: center;
     padding: var(--pd-0);
-    position: absolute;
+    position: fixed;
     bottom: 0;
 
     .icons {
