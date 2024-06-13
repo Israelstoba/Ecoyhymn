@@ -51,6 +51,8 @@ body {
     box-shadow: var(--bs-b);
     text-align: center;
     padding: var(--pd-0);
+    position: fixed;
+    top: 0;
 
     .logo {
       width: 60px;

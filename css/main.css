@@ -40,6 +40,8 @@ body {
   box-shadow: var(--bs-b);
   text-align: center;
   padding: var(--pd-0);
+  position: fixed;
+  top: 0;
 }
 #app-con .header-bar .logo {
   width: 60px;
