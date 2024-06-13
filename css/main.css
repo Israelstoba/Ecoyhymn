@@ -1,0 +1,69 @@
+:root {
+  --clr-prim-100: #0057a4;
+  --clr-prim-200: #5ab2ff;
+  --clr-prim-300: #a0deff;
+  --clr-prim-400: #caf4ff;
+  --bs-b: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+  --pd-0: 0.5rem;
+  --pd-1: 1rem;
+  --pd-2: 2rem;
+  --pd-3: 3rem;
+  --pd-4: 4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+body {
+  background-image: url(../assets/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1440px;
+  font-family: "Poppins", sans-serif;
+}
+
+#app-con {
+  width: 100%;
+  min-height: 100vh;
+  height: -webkit-fill-available;
+  position: relative;
+}
+#app-con .header-bar {
+  width: 100%;
+  background-color: var(--clr-prim-100);
+  box-shadow: var(--bs-b);
+  text-align: center;
+  padding: var(--pd-0);
+}
+#app-con .header-bar .logo {
+  width: 60px;
+}
+#app-con .footer-bar {
+  width: 100%;
+  background-color: var(--clr-prim-100);
+  box-shadow: var(--bs-b);
+  text-align: center;
+  padding: var(--pd-0);
+  position: absolute;
+  bottom: 0;
+}
+#app-con .footer-bar .icons {
+  margin-inline: 2rem;
+}
+
+@media (max-width: 768px) {
+  #app-con .header-bar .logo {
+    width: 42px;
+  }
+}/*# sourceMappingURL=main.css.map */
