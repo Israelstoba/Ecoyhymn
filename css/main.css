@@ -59,7 +59,10 @@ body {
   bottom: 0;
 }
 #app-con .footer-bar .icons {
-  margin-inline: 2rem;
+  margin-inline: 1rem;
+}
+#app-con .footer-bar .icons img {
+  width: 25px;
 }
 
 @media (max-width: 768px) {
