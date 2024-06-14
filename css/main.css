@@ -17,6 +17,14 @@
   box-sizing: border-box;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
   background-image: url(../assets/bg.jpg);
   background-position: center;
@@ -38,10 +46,11 @@ body {
   width: 100%;
   background-color: var(--clr-prim-100);
   box-shadow: var(--bs-b);
-  text-align: center;
   padding: var(--pd-0);
   position: fixed;
   top: 0;
+  display: flex;
+  justify-content: center;
 }
 #app-con .header-bar .logo {
   width: 60px;

@@ -22,7 +22,11 @@
 }
 
 html {
-  //   height: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
@@ -49,10 +53,12 @@ body {
     width: 100%;
     background-color: var(--clr-prim-100);
     box-shadow: var(--bs-b);
-    text-align: center;
+    // text-align: center;
     padding: var(--pd-0);
     position: fixed;
     top: 0;
+    display: flex;
+    justify-content: center;
 
     .logo {
       width: 60px;
