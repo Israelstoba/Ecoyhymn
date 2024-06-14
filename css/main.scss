@@ -46,14 +46,12 @@ body {
 #app-con {
   width: 100%;
   min-height: 100vh;
-  height: -webkit-fill-available;
-  //   position: relative;
+  // height: -webkit-fill-available;
 
   .header-bar {
     width: 100%;
     background-color: var(--clr-prim-100);
     box-shadow: var(--bs-b);
-    // text-align: center;
     padding: var(--pd-0);
     position: fixed;
     top: 0;
