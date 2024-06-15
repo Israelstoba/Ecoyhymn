@@ -45,8 +45,8 @@ body {
 
 #app-con {
   width: 100%;
-  min-height: 100vh;
-  // height: -webkit-fill-available;
+  height: 100vh;
+  height: -webkit-fill-available;
 
   .header-bar {
     width: 100%;
