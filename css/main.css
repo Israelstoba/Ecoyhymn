@@ -6,6 +6,7 @@
   --clr-light: #fff;
   --clr-dark: #000;
   --bs-b: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
+  --bs-xy: 3px 3px 10px rgba(0, 0, 0, 0.5);
   --pd-0: 0.5rem;
   --pd-1: 1rem;
   --pd-2: 2rem;
@@ -63,13 +64,14 @@ body {
   position: relative;
   width: clamp(200px, 90%, 400px);
   margin-inline: auto;
+  box-shadow: var(--bs-xy);
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
   background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.3);
+  font-weight: 500;
 }
 #app-con .hymn-container .search-el {
   width: 100%;
@@ -81,6 +83,16 @@ body {
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
   font-weight: bold;
+}
+#app-con .hymn-container .select-con {
+  padding: 0.5rem;
+}
+#app-con .hymn-container .select-con .option-wrapper {
+  border-bottom: 1px solid var(--clr-prim-300);
+  border-left: 1px solid var(--clr-prim-300);
+  border-bottom-left-radius: 10px;
+  margin-bottom: 0.5rem;
+  padding: 0.3rem;
 }
 #app-con .footer-bar {
   width: 100%;
