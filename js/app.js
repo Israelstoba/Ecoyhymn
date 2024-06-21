@@ -17,6 +17,9 @@ var searchEl = document.querySelector('#search-el');
 
 searchBtn.addEventListener('click', function () {
   searchWrapper.style.left = '0';
+  setTimeout(() => {
+    searchEl.focus();
+  }, 400);
 });
 
 searchCloseBtn.addEventListener('click', function () {
