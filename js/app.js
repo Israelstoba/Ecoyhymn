@@ -3,7 +3,9 @@ var appCon = document.querySelector('#app-con');
 var homeIcon = document.querySelector('#home-icon');
 
 mainCon.addEventListener('click', function () {
-  appCon.style.left = '0';
+  setTimeout(() => {
+    appCon.style.left = '0';
+  }, 400);
 });
 homeIcon.addEventListener('click', function () {
   appCon.style.left = '100%';

@@ -7,6 +7,9 @@
     <title>Ecoy Hymn App</title>
     <!-- Css Link -->
     <link rel="stylesheet" href="css/main.css" />
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/appwrite@8.0.0"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/appwrite@15.0.0"></script>
   </head>
   <body>
     <div class="main-con" id="main-con">
@@ -17,7 +20,7 @@
         <img class="logo" src="assets/logo.png" alt="" />
         <img class="search-btn" id="search-btn" src="assets/search.png" />
       </div>
-      <div class="hymn-container">
+      <div class="hymn-board">
         <div class="search-wrapper" id="search-wrapper">
           <span class="search-el-close" id="search-el-close"><</span>
           <input
@@ -27,9 +30,8 @@
             placeholder="Search hymn by words..."
           />
         </div>
-
-        <div class="select-con">
-          <div class="option-wrapper">
+        <!-- <div class="select-con"> -->
+        <!-- <div class="option-wrapper">
             <label for="">To God Be The Glory</label>
           </div>
           <div class="option-wrapper">
@@ -37,8 +39,14 @@
           </div>
           <div class="option-wrapper">
             <label for="">To God Be The Glory</label>
-          </div>
-        </div>
+          </div> -->
+        <ul class="hymn-list" id="hymn-list">
+          <!-- <li>To God Be The Glory</li>
+          <li>Blessed Assurance</li> -->
+        </ul>
+        <h3 id="hymn-title"></h3>
+        <pre id="hymn-lyrics"></pre>
+        <!-- </div> -->
       </div>
 
       <div class="footer-bar">
@@ -49,7 +57,7 @@
         </div>
       </div>
     </div>
-
     <script src="js/app.js"></script>
+    <script src="js/appwrite.js"></script>
   </body>
 </html>
